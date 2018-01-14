@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Seresti</title>
+</head>
+<body>
+<center><h3>Welcome to Seresti 0.1.0</h3></center>
+<h5><b>Avaiable APIs</b></h5><hr><br>
+<pre>
+  <b>GET</b> <a href="/api/v1/misc/hello?person=John">/api/v1/misc/hello</a><br>
+  <b>Input</b>: <b>person</b>
+  <b>Output</b>: <b>message</b>
+  <br><br>
+  <b>Result</b><br>
+  <iframe src="/api/v1/misc/hello?person=John" width=30%></iframe>
+</pre><br><br><hr>
+<pre>
+  <b>GET</b> <a href="/api/v1/server/env">/api/v1/server/env</a><br>
+  <b>Input</b>: <b></b>
+  <b>Output</b>: <b>name, value</b>
+  <br><br>
+  <b>Result</b><br>
+  <iframe src="/api/v1/server/env" width=30%></iframe>
+</pre><br><br><hr>
+<pre>
+  <b>GET</b> <a href="/api/v1/server/info">/api/v1/server/info</a><br>
+  <b>Input</b>: <b></b>
+  <b>Output</b>: <b>hostname, os, utime</b>
+  <br><br>
+  <b>Result</b><br>
+  <iframe src="/api/v1/server/info" width=30%></iframe>
+</pre><br><br><hr>
+<pre>
+  <b>GET</b> <a href="/api/v1/server/processes?filter=bash">/api/v1/server/processes</a><br>
+  <b>Input</b>: <b>filter</b>
+  <b>Output</b>: <b>user, pid, command</b>
+  <br><br>
+  <b>Result</b><br>
+  <iframe src="/api/v1/server/processes?filter=bash" width=30%></iframe>
+</pre><br><br><hr>
+</body>
+</html>
