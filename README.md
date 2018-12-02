@@ -1,4 +1,4 @@
-# Seresti - Sh Eeasy RESTIfy
+# Seresti - Sh Easy RESTIfy
 Seresti is an easy way to implement micro service via sh script files.
 
 You just have to create your configuration file (just a matter of seconds) and run!
